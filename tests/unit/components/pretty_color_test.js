@@ -1,4 +1,7 @@
-import { test , moduleForComponent } from 'safe-tube/tests/helpers/module_for';
+import {
+  test,
+  moduleForComponent
+} from 'safe-tube/tests/helpers/module_for';
 
 moduleForComponent('pretty-color');
 

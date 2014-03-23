@@ -1,5 +1,13 @@
-<ul>
-{{#each}}
-  <li>{{this}}</li>
-{{/each}}
-</ul>
+<h3>Favourites</h3>
+<div class="row">
+	{{#each}}
+	<div class="col-xs-12 col-md-3">
+		{{#link-to "player" this classNames="thumbnail"}}
+			<img src="{{unbound thumb}}" alt="{{unbound title}}">
+			<div class="caption">
+				<h3>{{unbound title}}</h3>
+			</div>
+		{{/link-to}}
+	</div>
+	{{/each}}
+</div>

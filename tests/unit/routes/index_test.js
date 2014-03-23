@@ -1,4 +1,7 @@
-import { test , moduleFor } from 'safe-tube/tests/helpers/module_for';
+import {
+  test,
+  moduleFor
+} from 'safe-tube/tests/helpers/module_for';
 
 import Index from 'safe-tube/routes/index';
 
